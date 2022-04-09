@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.16068c0a.css",
-    "main.js": "/static/js/main.57438279.js",
-    "static/media/illustration-thank-you.svg": "/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
-    "index.html": "/index.html",
-    "static/media/icon-star.svg": "/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
-    "main.16068c0a.css.map": "/static/css/main.16068c0a.css.map",
-    "main.57438279.js.map": "/static/js/main.57438279.js.map"
+    "main.css": "/frontend-mentor-interactive-rating-component/static/css/main.16068c0a.css",
+    "main.js": "/frontend-mentor-interactive-rating-component/static/js/main.41d5bb3f.js",
+    "static/media/illustration-thank-you.svg": "/frontend-mentor-interactive-rating-component/static/media/illustration-thank-you.d74a66b551b99ae110b5362ed63106bf.svg",
+    "index.html": "/frontend-mentor-interactive-rating-component/index.html",
+    "static/media/icon-star.svg": "/frontend-mentor-interactive-rating-component/static/media/icon-star.12766a8d207af861a70f92500634c8be.svg",
+    "main.16068c0a.css.map": "/frontend-mentor-interactive-rating-component/static/css/main.16068c0a.css.map",
+    "main.41d5bb3f.js.map": "/frontend-mentor-interactive-rating-component/static/js/main.41d5bb3f.js.map"
   },
   "entrypoints": [
     "static/css/main.16068c0a.css",
-    "static/js/main.57438279.js"
+    "static/js/main.41d5bb3f.js"
   ]
 }
