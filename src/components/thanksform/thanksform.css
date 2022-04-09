@@ -1,0 +1,16 @@
+.thanks-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    text-align: center;
+}
+
+.rating-selection {
+    color: var(--Orange);
+    padding: .6rem;
+    background-color: var(--Very-Dark-Blue);
+    border-radius: 1.3rem;
+}

@@ -1,23 +1,35 @@
-import logo from './logo.svg';
+import { useState } from 'react';
 import './App.css';
+import {RatingForm} from './components/ratingform';
+import {ThanksForm} from './components/thanksform';
 
 function App() {
+
+  const [selectedRating, setSelectedRating] = useState(1);
+  const [isSubmitted, setIsSubmitted] = useState(false);
+
+  function handleRatingSelected(rating) {
+    setSelectedRating(rating);
+  }
+
+  function handleSubmit() {
+    setIsSubmitted(true);
+  }
+
+  const createRatingForm = () => {
+    return <RatingForm 
+              selectedRating={selectedRating} 
+              onRatingSelected={handleRatingSelected} 
+              onRatingSubmitted={handleSubmit}/>
+  }
+
+  const createThanksForm = () => {
+    return <ThanksForm selectedRating={selectedRating} />;
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {!isSubmitted ? createRatingForm() : createThanksForm()}
     </div>
   );
 }
