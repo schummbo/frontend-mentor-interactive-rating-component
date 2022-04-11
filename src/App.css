@@ -1,6 +1,7 @@
 .App {
   width: 350px;
   background-color: var(--Dark-Blue);
+  background: radial-gradient(at top, hsl(214, 16%, 17%), hsl(214, 22%, 12%));
   padding: 2rem;
   border-radius: 20px;
 }
@@ -15,4 +16,9 @@
   width: 100%;
   padding: 1rem;
   text-transform: uppercase;
+}
+
+.submit-button:hover {
+  background-color: var(--White);
+  color: var(--Orange);
 }
