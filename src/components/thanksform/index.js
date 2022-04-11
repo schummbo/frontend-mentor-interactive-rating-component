@@ -4,7 +4,7 @@ import './thanksform.css';
 export const ThanksForm = ({ selectedRating }) => {
     return (
         <div className='thanks-container'>
-            <img src={thankYouImage} />
+            <img src={thankYouImage} alt="Thank You Image" />
             <div className='rating-selection'>
                 You selected {selectedRating} out of 5
             </div>

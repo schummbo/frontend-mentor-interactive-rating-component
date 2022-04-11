@@ -4,7 +4,7 @@ import starIcon from '../../images/icon-star.svg';
 export const Star = () => {
     return (
         <>
-            <img className='star-icon' src={starIcon} />
+            <img className='star-icon' src={starIcon} alt="Star Icon" />
         </>
     );
 }
