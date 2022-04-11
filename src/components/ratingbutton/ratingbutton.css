@@ -1,8 +1,8 @@
 .rating-button {
     display: inline-block;
     text-decoration: none;
-    background: hsl(213, 21%, 19%);
-    color: #FFF;
+    background: var(--Dark-Blue);
+    color: var(--White);
     width: 55px;
     height: 55px;
     border-radius: 50%;
@@ -10,10 +10,12 @@
     vertical-align: middle;
     overflow: hidden;
     border: 0;
+    text-transform: uppercase;
+    transition: background-color .2s;
 }
 
 .selected {
-    background-color: hsl(216, 12%, 54%);
+    background-color: var(--Gray);
 }
 
 button:hover {

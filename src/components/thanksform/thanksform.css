@@ -11,6 +11,6 @@
 .rating-selection {
     color: var(--Orange);
     padding: .6rem;
-    background: hsl(213, 21%, 19%);
+    background: var(--Dark-Blue);
     border-radius: 1.3rem;
 }

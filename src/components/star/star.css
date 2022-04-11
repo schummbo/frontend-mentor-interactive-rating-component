@@ -1,5 +1,5 @@
 .star-icon {
     padding: 1rem;
     border-radius: 50%;
-    background-color: hsl(213, 21%, 19%);
+    background-color: var(--Dark-Blue);
 }
