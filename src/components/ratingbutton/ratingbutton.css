@@ -1,13 +1,23 @@
-button {
-    border: 0;
-    background: none;
-    box-shadow: none;
-    border-radius: 50%;
-    background-color: var(--Very-Dark-Blue);
+.rating-button {
+    display: inline-block;
+    text-decoration: none;
+    background: var(--Dark-Blue);
     color: var(--White);
-    padding: 1rem;
+    width: 55px;
+    height: 55px;
+    border-radius: 50%;
+    text-align: center;
+    vertical-align: middle;
+    overflow: hidden;
+    border: 0;
+    text-transform: uppercase;
+    transition: background-color .2s;
 }
 
 .selected {
-    background-color: var(--Medium-Grey);
+    background-color: var(--Gray);
+}
+
+button:hover {
+    background-color: var(--Orange);
 }

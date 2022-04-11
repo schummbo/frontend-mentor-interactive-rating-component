@@ -5,7 +5,7 @@ import {ThanksForm} from './components/thanksform';
 
 function App() {
 
-  const [selectedRating, setSelectedRating] = useState(1);
+  const [selectedRating, setSelectedRating] = useState();
   const [isSubmitted, setIsSubmitted] = useState(false);
 
   function handleRatingSelected(rating) {
